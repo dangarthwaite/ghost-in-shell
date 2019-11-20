@@ -19,9 +19,13 @@ pip install -r requirements.txt
 
 To start the Flask application, start the application by simply calling the app.py file from the root of the cloned repository
 
-```bash
-python3 app.py
-```
+    python3 app.py
+
+
+### Testing
+
+    pip install -r requirements-dev.txt
+    pytest
 
 ### License
 
